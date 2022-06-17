@@ -7,22 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83F1E8C89459028EF07FC939 /* Pods_todoPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16EAA6F59CF8BCBFDD58F3C0 /* Pods_todoPractice.framework */; };
+		CED031AD2853A0CE000E3050 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031AC2853A0CE000E3050 /* item.swift */; };
+		CED031B12854CF78000E3050 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED031B02854CF78000E3050 /* GoogleService-Info.plist */; };
+		CED031B32854D0DC000E3050 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031B22854D0DC000E3050 /* DataModel.swift */; };
+		CED031B72854E9F4000E3050 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031B62854E9F4000E3050 /* LoginController.swift */; };
+		CED031B92854EA16000E3050 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031B82854EA16000E3050 /* SignUpController.swift */; };
+		CED031BB2854EF1C000E3050 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031BA2854EF1C000E3050 /* WeatherData.swift */; };
+		CED031BF2854FDAD000E3050 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031BE2854FDAD000E3050 /* WeatherManager.swift */; };
+		CED031C12854FE11000E3050 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031C02854FE11000E3050 /* WeatherModel.swift */; };
+		CED031C32857953C000E3050 /* ToDoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031C22857953C000E3050 /* ToDoItemCell.swift */; };
+		CED031C52858E119000E3050 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED031C42858E119000E3050 /* Extension.swift */; };
 		CED99F40284BCC830031593B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99F3F284BCC830031593B /* AppDelegate.swift */; };
 		CED99F42284BCC830031593B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99F41284BCC830031593B /* SceneDelegate.swift */; };
-		CED99F44284BCC830031593B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99F43284BCC830031593B /* ViewController.swift */; };
+		CED99F44284BCC830031593B /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED99F43284BCC830031593B /* TodoListViewController.swift */; };
 		CED99F47284BCC830031593B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED99F45284BCC830031593B /* Main.storyboard */; };
-		CED99F4A284BCC830031593B /* todoPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CED99F48284BCC830031593B /* todoPractice.xcdatamodeld */; };
 		CED99F4C284BCC840031593B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED99F4B284BCC840031593B /* Assets.xcassets */; };
 		CED99F4F284BCC840031593B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED99F4D284BCC840031593B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0786A5EBCDCB45659E81FF5D /* Pods-todoPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoPractice.release.xcconfig"; path = "Target Support Files/Pods-todoPractice/Pods-todoPractice.release.xcconfig"; sourceTree = "<group>"; };
+		16EAA6F59CF8BCBFDD58F3C0 /* Pods_todoPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todoPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C1F42E560C1C5630A3609B /* Pods-todoPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todoPractice.debug.xcconfig"; path = "Target Support Files/Pods-todoPractice/Pods-todoPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		CED031AC2853A0CE000E3050 /* item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		CED031B02854CF78000E3050 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CED031B22854D0DC000E3050 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CED031B62854E9F4000E3050 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CED031B82854EA16000E3050 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		CED031BA2854EF1C000E3050 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		CED031BE2854FDAD000E3050 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		CED031C02854FE11000E3050 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		CED031C22857953C000E3050 /* ToDoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemCell.swift; sourceTree = "<group>"; };
+		CED031C42858E119000E3050 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		CED99F3C284BCC830031593B /* todoPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED99F3F284BCC830031593B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED99F41284BCC830031593B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CED99F43284BCC830031593B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED99F43284BCC830031593B /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		CED99F46284BCC830031593B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CED99F49284BCC830031593B /* todoPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todoPractice.xcdatamodel; sourceTree = "<group>"; };
 		CED99F4B284BCC840031593B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED99F4E284BCC840031593B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED99F50284BCC840031593B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F1E8C89459028EF07FC939 /* Pods_todoPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AF65C627492781B553D3DE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27C1F42E560C1C5630A3609B /* Pods-todoPractice.debug.xcconfig */,
+				0786A5EBCDCB45659E81FF5D /* Pods-todoPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CED99F33284BCC830031593B = {
 			isa = PBXGroup;
 			children = (
 				CED99F3E284BCC830031593B /* todoPractice */,
 				CED99F3D284BCC830031593B /* Products */,
+				2AF65C627492781B553D3DE5 /* Pods */,
+				FFA45B40202DE306833B7D15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +94,55 @@
 			children = (
 				CED99F3F284BCC830031593B /* AppDelegate.swift */,
 				CED99F41284BCC830031593B /* SceneDelegate.swift */,
-				CED99F43284BCC830031593B /* ViewController.swift */,
-				CED99F45284BCC830031593B /* Main.storyboard */,
+				CED99F5C284FA4DD0031593B /* Controller */,
+				CED99F5D284FA4E60031593B /* View */,
+				CED99F58284CBC610031593B /* Model */,
 				CED99F4B284BCC840031593B /* Assets.xcassets */,
 				CED99F4D284BCC840031593B /* LaunchScreen.storyboard */,
 				CED99F50284BCC840031593B /* Info.plist */,
-				CED99F48284BCC830031593B /* todoPractice.xcdatamodeld */,
+				CED031B02854CF78000E3050 /* GoogleService-Info.plist */,
+				CED031C42858E119000E3050 /* Extension.swift */,
 			);
 			path = todoPractice;
+			sourceTree = "<group>";
+		};
+		CED99F58284CBC610031593B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CED031AC2853A0CE000E3050 /* item.swift */,
+				CED031B22854D0DC000E3050 /* DataModel.swift */,
+				CED031BA2854EF1C000E3050 /* WeatherData.swift */,
+				CED031BE2854FDAD000E3050 /* WeatherManager.swift */,
+				CED031C02854FE11000E3050 /* WeatherModel.swift */,
+				CED031C22857953C000E3050 /* ToDoItemCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CED99F5C284FA4DD0031593B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CED99F43284BCC830031593B /* TodoListViewController.swift */,
+				CED031B62854E9F4000E3050 /* LoginController.swift */,
+				CED031B82854EA16000E3050 /* SignUpController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CED99F5D284FA4E60031593B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CED99F45284BCC830031593B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFA45B40202DE306833B7D15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16EAA6F59CF8BCBFDD58F3C0 /* Pods_todoPractice.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED99F53284BCC840031593B /* Build configuration list for PBXNativeTarget "todoPractice" */;
 			buildPhases = (
+				9EB84F07DBF65712AF198A3E /* [CP] Check Pods Manifest.lock */,
 				CED99F38284BCC830031593B /* Sources */,
 				CED99F39284BCC830031593B /* Frameworks */,
 				CED99F3A284BCC830031593B /* Resources */,
+				980C0C7E34EF4CD98B755371 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED99F4F284BCC840031593B /* LaunchScreen.storyboard in Resources */,
+				CED031B12854CF78000E3050 /* GoogleService-Info.plist in Resources */,
 				CED99F4C284BCC840031593B /* Assets.xcassets in Resources */,
 				CED99F47284BCC830031593B /* Main.storyboard in Resources */,
 			);
@@ -136,14 +214,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		980C0C7E34EF4CD98B755371 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todoPractice/Pods-todoPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-todoPractice/Pods-todoPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-todoPractice/Pods-todoPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB84F07DBF65712AF198A3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-todoPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CED99F38284BCC830031593B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED99F44284BCC830031593B /* ViewController.swift in Sources */,
+				CED99F44284BCC830031593B /* TodoListViewController.swift in Sources */,
+				CED031B72854E9F4000E3050 /* LoginController.swift in Sources */,
+				CED031B92854EA16000E3050 /* SignUpController.swift in Sources */,
+				CED031C52858E119000E3050 /* Extension.swift in Sources */,
+				CED031B32854D0DC000E3050 /* DataModel.swift in Sources */,
+				CED031C12854FE11000E3050 /* WeatherModel.swift in Sources */,
 				CED99F40284BCC830031593B /* AppDelegate.swift in Sources */,
-				CED99F4A284BCC830031593B /* todoPractice.xcdatamodeld in Sources */,
+				CED031AD2853A0CE000E3050 /* item.swift in Sources */,
+				CED031BF2854FDAD000E3050 /* WeatherManager.swift in Sources */,
+				CED031C32857953C000E3050 /* ToDoItemCell.swift in Sources */,
+				CED031BB2854EF1C000E3050 /* WeatherData.swift in Sources */,
 				CED99F42284BCC830031593B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +414,7 @@
 		};
 		CED99F54284BCC840031593B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C1F42E560C1C5630A3609B /* Pods-todoPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +442,7 @@
 		};
 		CED99F55284BCC840031593B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0786A5EBCDCB45659E81FF5D /* Pods-todoPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,7 +478,7 @@
 				CED99F52284BCC840031593B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CED99F53284BCC840031593B /* Build configuration list for PBXNativeTarget "todoPractice" */ = {
 			isa = XCConfigurationList;
@@ -357,22 +487,9 @@
 				CED99F55284BCC840031593B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CED99F48284BCC830031593B /* todoPractice.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CED99F49284BCC830031593B /* todoPractice.xcdatamodel */,
-			);
-			currentVersion = CED99F49284BCC830031593B /* todoPractice.xcdatamodel */;
-			path = todoPractice.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CED99F34284BCC830031593B /* Project object */;
 }

@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  todoPractice
+//
+//  Created by user on 2022/06/17.
+//
+
+// Configuration settings file format documentation can be found at:
+
+WEATHER_API_KEY = "40aa55f3776e7c5d4492e4d7de828dad"
